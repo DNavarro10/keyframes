@@ -1,0 +1,52 @@
+body{
+ 	margin: 0px;
+    padding: 0px 0 0 125px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+section{
+	background: #DBEDE7;
+	width: 80%;
+	margin: 10px;
+	padding: 15px;
+	display: inline-block;
+	box-shadow: 10px 5px 3px #60C3F6;
+}
+section div{
+	background: #44A14F;
+	margin: 15px 5px;
+	width: 100px;
+	padding: 15px;
+	vertical-align: middle;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+}
+section div .tapa*{
+
+}
+
+.btn {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #68b325;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 15px 5px;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+a:hover{
+	background: #80D1C3;
+
+}
