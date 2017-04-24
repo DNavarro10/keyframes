@@ -5,6 +5,7 @@ body{
     font-size: 16px;
     color: black;
     text-align: center;
+    background: #EFFBF9;
 }
 
 section{
@@ -25,7 +26,7 @@ section div{
 	text-align: center;
 	display: inline-block;
 }
-section div .tapa*{
+section div .tapa{
 
 }
 
