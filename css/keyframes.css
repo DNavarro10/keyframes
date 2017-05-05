@@ -358,7 +358,7 @@
 }
 /* section 4*/
 
-.fade{
+.aparecer{
 	-webkit-animation: 1 aparecer 2s;
 	   -moz-animation: 1 aparecer 2s;
 	    -ms-animation: 1 aparecer 2s;
@@ -370,24 +370,23 @@
 		opacity: 0;
 	}
 	50%{
-		opacity: 0.6;
-	}
-	100%{
-	opacity: 1;
+		opacity: 0.8;
 	}
 }
 
-section div .tapa{
+.contenedor section div .tapa{
+   
+    -webkit-animation: 1 retidada 2s;
+	   -moz-animation: 1 retirada 2s;
+	    -ms-animation: 1 retirada 2s;
+	     -o-animation: 1 retirada 2s;
+	        animation: 1 retirada 2s;
 
-	-webkit-animation: 1 tapa 2s;
-	   -moz-animation: 1 tapa 2s;
-	    -ms-animation: 1 tapa 2s;
-	     -o-animation: 1 tapa 2s;
-	        animation: 1 tapa 2s;
+
 }
 
-@-webkit-keyframes tapa{
+@-webkit-keyframes retirada{
 	0%{
-		trans
+		left: 0;
 	}
 }
