@@ -377,15 +377,7 @@
 	}
 }
 
-.tapa{
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:110px;
-	position: relative;
-	background: red;
-	z-index: 10;
+section div .tapa{
 
 	-webkit-animation: 1 tapa 2s;
 	   -moz-animation: 1 tapa 2s;
@@ -396,6 +388,6 @@
 
 @-webkit-keyframes tapa{
 	0%{
-		left: 0;
+		trans
 	}
 }

@@ -1,41 +1,89 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
-header h1{
-	padding: 0 15% 0 0;
+body,html{ 
+    height:100%; 
+
 }
 body{
- 	margin: 0px;
-    padding: 0px 0px 0px 80px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    background: #EFFBF9;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px #CF5454 ;
+    background: -moz-linear-gradient(330deg, rgba(255,0,255,1) 0%, rgba(56,69,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(255,0,255,1)), color-stop(100%, rgba(56,69,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(330deg, rgba(255,0,255,1) 0%, rgba(56,69,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -ms-linear-gradient(330deg, rgba(255,0,255,1) 0%, rgba(56,69,255,1) 100%); /* ie10+ */
+    background: linear-gradient(120deg, rgba(255,0,255,1) 0%, rgba(56,69,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00ff', endColorstr='#3845FF',GradientType=1 ); /* ie6-9 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor{
+     width: 90%;
+     margin: 0 auto;
+
+}
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 15px auto;
+    margin-bottom:20px;
+    line-height: 35px;
 }
 
-section{
+.contenedor section{
+    position: relative;
 	background: #DBEDE7;
-	width: 80%;
-	margin: 12px;
-	padding: 15px;
+	width: inherit;
+	margin: 15px auto;
+	padding: 15px 15px;
+    text-align: center;
 	display: inline-block;
 	box-shadow: 10px 5px 3px #60C3F6;
+    -webkit-box-shadow: 10px 5px 3px #60C3F6;
+    -moz-box-shadow: 10px 5px 3px #60C3F6;
 
 }
 
-section div{
-	background: #44A14F;
-	margin: 15px 5px;
-	width: 100px;
-	padding: 15px;
+.contenedor section > div {
+	position: relative;
+    border-radius: 10px;
+    background: #6A30AC;
+	margin: 25px 15px;
+	width: 180px;
+    height: 90px;
+    line-height: 70px;
+	padding: 10px 10px;
 	vertical-align: middle;
 	font-weight: bolder;
 	text-align: center;
 	display: inline-block;
 }
-section div .tapa{
+section > .fade {
+    position: relative;
+    margin: 15px 5px;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    padding: inherit;
+    
+}
+.tapa{
+   
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 155px;
+    position: absolute;
+    background: red;
+    z-index: 1;
 
 }
 
@@ -43,7 +91,7 @@ section div .tapa{
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    background: #68b325;
+    background: #3485D8;
     color: #fff;
     display: inline-block;
     padding: 12px 30px;
@@ -59,4 +107,9 @@ section div .tapa{
 a:hover{
 	background: #80D1C3;
 
+}
+
+footer{
+    margin: 10px;
+    padding: 20px 20px;
 }
