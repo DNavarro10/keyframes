@@ -179,11 +179,11 @@
 }
 
 .descolgado:hover{
-	-webkit-animation: 1 descolgado 2s;
-	   -moz-animation: 1 descolgado 2s;
-	    -ms-animation: 1 descolgado 2s;
-	     -o-animation: 1 descolgado 2s;
-	        animation: 1 descolgado 2s;
+	-webkit-animation: 1 descolgado 2s forwards;
+	   -moz-animation: 1 descolgado 2s forwards;
+	    -ms-animation: 1 descolgado 2s forwards;
+	     -o-animation: 1 descolgado 2s forwards;
+	        animation: 1 descolgado 2s forwards;
 	-webkit-transform-origin: top left ;
 	   -moz-transform-origin: top left ;
 	    -ms-transform-origin: top left ;
@@ -225,11 +225,13 @@
 }
 
 .salida:hover{
-	-webkit-animation: 1 salida 1s;
-	   -moz-animation: 1 salida 1s;
-	    -ms-animation: 1 salida 1s;
-	     -o-animation: 1 salida 1s;
-	        animation: 1 salida 1s;
+	-webkit-animation: 1 salida  2s forwards;
+	   -moz-animation: 1 salida  2s forwards;
+	    -ms-animation: 1 salida  2s forwards;
+	     -o-animation: 1 salida  2s forwards;
+	        animation: 1 salida  2s forwards;
+	        anima
+
 }
 
 @-webkit-keyframes salida{
@@ -261,11 +263,11 @@
 /* section 3 */
 
 .inRotativo{
-	-webkit-animation:  inRotativo 1s;
-	   -moz-animation:  inRotativo 1s;
-	    -ms-animation:  inRotativo 1s;
-	     -o-animation:  inRotativo 1s;
-	        animation:  inRotativo 1s;
+	-webkit-animation: 2 inRotativo 3s;
+	   -moz-animation: 2 inRotativo 3s;
+	    -ms-animation: 2 inRotativo 3s;
+	     -o-animation: 2 inRotativo 3s;
+	        animation: 2 inRotativo 3s;
 }
 @-webkit-keyframes inRotativo{
 	0%{
@@ -282,11 +284,11 @@
 }
 
 .outRotativo{
-	-webkit-animation: 1 outRotativo 1s;
-	   -moz-animation: 1 outRotativo 1s;
-	    -ms-animation: 1 outRotativo 1s;
-	     -o-animation: 1 outRotativo 1s;
-	        animation: 1 outRotativo 1s;
+	-webkit-animation: 2 outRotativo 3s;
+	   -moz-animation: 2 outRotativo 3s;
+	    -ms-animation: 2 outRotativo 3s;
+	     -o-animation: 2 outRotativo 3s;
+	        animation: 2 outRotativo 3s;
 }
 @-webkit-keyframes outRotativo{
 	0%{
@@ -301,11 +303,11 @@
 
 .reboteIn{
 	
-	-webkit-animation: 1 reboteIn 1s;
-	   -moz-animation: 1 reboteIn 1s;
-	    -ms-animation: 1 reboteIn 1s;
-	     -o-animation: 1 reboteIn 1s;
-	        animation: 1 reboteIn 1s;
+	-webkit-animation: 2 reboteIn 3s;
+	   -moz-animation: 2 reboteIn 3s;
+	    -ms-animation: 2 reboteIn 3s;
+	     -o-animation: 2 reboteIn 3s;
+	        animation: 2 reboteIn 3s;
 	    
 }
 
@@ -330,11 +332,11 @@
 }
 
 .entradaIzq{
-	-webkit-animation: 1 izq 1s;
-	   -moz-animation: 1 izq 1s;
-	    -ms-animation: 1 izq 1s;
-	     -o-animation: 1 izq 1s;
-	        animation: 1 izq 1s;
+	-webkit-animation: 3 izq 2s;
+	   -moz-animation: 3 izq 2s;
+	    -ms-animation: 3 izq 2s;
+	     -o-animation: 3 izq 2s;
+	        animation: 3 izq 2s;
 }
 
 @-webkit-keyframes izq{
@@ -359,11 +361,11 @@
 /* section 4*/
 
 .fade{
-	-webkit-animation: 1 aparecer 2s;
-	   -moz-animation: 1 aparecer 2s;
-	    -ms-animation: 1 aparecer 2s;
-	     -o-animation: 1 aparecer 2s;
-	        animation: 1 aparecer 2s;
+	-webkit-animation: 2 aparecer 2s;
+	   -moz-animation: 2 aparecer 2s;
+	    -ms-animation: 2 aparecer 2s;
+	     -o-animation: 2 aparecer 2s;
+	        animation: 2 aparecer 2s;
 }
 @-webkit-keyframes aparecer{
 	0%{
@@ -377,11 +379,11 @@
 
 .contenedor section div .tapa{
    
-    -webkit-animation: 1 retidada 2s;
-	   -moz-animation: 1 retirada 2s;
-	    -ms-animation: 1 retirada 2s;
-	     -o-animation: 1 retirada 2s;
-	        animation: 1 retirada 2s;
+    -webkit-animation: 3 retidada 2s;
+	   -moz-animation: 3 retirada 2s;
+	    -ms-animation: 3 retirada 2s;
+	     -o-animation: 3 retirada 2s;
+	        animation: 3 retirada 2s;
 
 
 }
@@ -389,5 +391,58 @@
 @-webkit-keyframes retirada{
 	0%{
 		left: 0;
+	}
+}
+
+.entradarapida:hover{
+	-webkit-animation: veloz 1s 1s 3;
+	-o-animation: veloz 1s 1s 3;
+	animation: veloz 1s 1s 3;
+}
+
+@keyframes veloz{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateX(-200%) skewX(30deg);
+		   -moz-transform: translateX(-200%) skewX(30deg);
+		    -ms-transform: translateX(-200%) skewX(30deg);
+		     -o-transform: translateX(-200%) skewX(30deg);
+		        transform: translateX(-200%) skewX(30deg);
+	}
+	60%{
+		opacity: 1;
+		-webkit-transform: translateX(-20%) skewX(-30deg);
+		   -moz-transform: translateX(-20%) skewX(-30deg);
+		    -ms-transform: translateX(-20%) skewX(-30deg);
+		     -o-transform: translateX(-20%) skewX(-30deg);
+		        transform: translateX(-20%) skewX(-30deg);
+	}
+	80%{
+		-webkit-transform: translateX(0%) skewX(15deg);
+		   -moz-transform: translateX(0%) skewX(15deg);
+		    -ms-transform: translateX(0%) skewX(15deg);
+		     -o-transform: translateX(0%) skewX(15deg);
+		        transform: translateX(0%) skewX(15deg);
+	}
+}
+
+.salidarapida:hover{
+	-webkit-animation: velozsalida 1s 1s 3;
+	-o-animation: velozsalida 1s 1s 3;
+	animation: velozsalida 1s 1s 3;
+}
+
+@keyframes velozsalida{
+	15%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		-webkit-transform: translateX(-200%) skewX(30deg);
+		   -moz-transform: translateX(-200%) skewX(30deg);
+		    -ms-transform: translateX(-200%) skewX(30deg);
+		     -o-transform: translateX(-200%) skewX(30deg);
+		        transform: translateX(-200%) skewX(30deg);
 	}
 }

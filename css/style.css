@@ -81,10 +81,10 @@ section > .fade {
    
     width: inherit;
     height: inherit;
-    top: 0;
-    left: 185px;
+    background: #DBEDE7;
+    top: 0px;
+    left: 180px;
     position: absolute;
-    background: red;
     z-index: 1;
     overflow: hidden;  
 
