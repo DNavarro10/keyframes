@@ -358,7 +358,7 @@
 }
 /* section 4*/
 
-.aparecer{
+.fade{
 	-webkit-animation: 1 aparecer 2s;
 	   -moz-animation: 1 aparecer 2s;
 	    -ms-animation: 1 aparecer 2s;
@@ -368,6 +368,7 @@
 @-webkit-keyframes aparecer{
 	0%{
 		opacity: 0;
+		background: #EAD9FE;
 	}
 	50%{
 		opacity: 0.8;
